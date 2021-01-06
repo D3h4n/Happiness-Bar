@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Happiness-Bar/static/css/main.e0ec154e.chunk.css",
+    "main.js": "/Happiness-Bar/static/js/main.28a8f294.chunk.js",
+    "main.js.map": "/Happiness-Bar/static/js/main.28a8f294.chunk.js.map",
+    "runtime-main.js": "/Happiness-Bar/static/js/runtime-main.a7d9c3f8.js",
+    "runtime-main.js.map": "/Happiness-Bar/static/js/runtime-main.a7d9c3f8.js.map",
+    "static/js/2.722b1440.chunk.js": "/Happiness-Bar/static/js/2.722b1440.chunk.js",
+    "static/js/2.722b1440.chunk.js.map": "/Happiness-Bar/static/js/2.722b1440.chunk.js.map",
+    "index.html": "/Happiness-Bar/index.html",
+    "static/css/main.e0ec154e.chunk.css.map": "/Happiness-Bar/static/css/main.e0ec154e.chunk.css.map",
+    "static/js/2.722b1440.chunk.js.LICENSE.txt": "/Happiness-Bar/static/js/2.722b1440.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7d9c3f8.js",
+    "static/js/2.722b1440.chunk.js",
+    "static/css/main.e0ec154e.chunk.css",
+    "static/js/main.28a8f294.chunk.js"
+  ]
+}
