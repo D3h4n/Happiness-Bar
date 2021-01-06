@@ -7,6 +7,17 @@ body {
 .app-container {
     margin: 10px;
     margin-top: 15px;
+    text-align: center;
+}
+
+.app-container form input {
+    width: 35%;
+    height: 2em;
+}
+
+.app-container form button {
+    width: 15%;
+    height: 2rem;
 }
 
 .happy-container {

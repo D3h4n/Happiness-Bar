@@ -50,7 +50,13 @@ export default class App extends Component {
         return (
             <div className="app-container">
                 <form onSubmit={this.handleSubmit}>
-                    <input type="text" name="nameEntry" placeholder="Enter Name" value={this.state.nameEntry} onChange={this.handleChange}/>
+                    <input type="text" 
+                        name="nameEntry" 
+                        placeholder="Enter Name" 
+                        value={this.state.nameEntry} 
+                        onChange={this.handleChange}
+                    />
+
                     <button type="submit">Submit</button>
                 </form>
             
