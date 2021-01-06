@@ -38,3 +38,23 @@ body {
     height: 1em;
     margin-right: 1px;
 }
+
+.btn {
+    width: 2rem;
+    height: 2rem;
+    margin: 0px 2px;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.del-btn {
+    background-color: red;
+}
+
+.del-btn:hover {
+    background-color: #D00;
+}

@@ -72,9 +72,10 @@ export default class Happy extends Component {
                 </span>
 
                 <span className="btns-container">
-                    <button onClick={this.handleIncrease}>+</button>
-                    <button onClick={this.handleDecrease}>-</button>
-                    <button onClick={this.handleReset}>x</button>
+                    <button onClick={this.handleIncrease} className="btn">+</button>
+                    <button onClick={this.handleDecrease} className="btn">-</button>
+                    <button onClick={this.handleReset} className="btn">R</button>
+                    <button onClick={()=>this.props.handleDelete(this.props.name)} className="btn del-btn">X</button>
                 </span>
             </div>
         )
