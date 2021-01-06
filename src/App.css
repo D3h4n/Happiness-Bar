@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+
+    background-color: #ddd;
+
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
 }
 
 .app-container {
@@ -13,17 +17,20 @@ body {
 .app-container form input {
     width: 35%;
     height: 2em;
+    font-size: 1em;
 }
 
 .app-container form button {
     width: 15%;
-    height: 2rem;
+    height: 2.7em;
 }
 
 .happy-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    background-color: #fff;
 
     margin: 5px;
     padding: 10px;
