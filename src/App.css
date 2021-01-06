@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app-container {
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.happy-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 5px;
+    padding: 10px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.seratonin-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.box-container {
+    margin: 2px;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 1em;
+    height: 1em;
+    margin-right: 1px;
+}

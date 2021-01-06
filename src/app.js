@@ -1,22 +1,15 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import Happy from './Happy.js'
+import './App.css'
 
-export default class app extends Component {
-    static propTypes = {
-        prop: PropTypes
-    }
-
-    constructor(){
-        super()
-        this.state = {
-            names: []
-        }
-    }
-
+export default class App extends Component {
     render() {
+        const names = ["Dehan", "Alik", "Adonai", "Jason", "Josh"]
+        let happies = names.map((name, id) => <Happy key={id} name={name}/>)
+
         return (
-            <div>
-                
+            <div className="app-container">
+                { happies }
             </div>
         )
     }
