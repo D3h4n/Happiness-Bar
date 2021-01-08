@@ -7,7 +7,7 @@ export default class App extends Component {
         super()
         this.state = {
             nameEntry: '',
-            names: ["d3h4n", "burgers"]
+            names: []
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
