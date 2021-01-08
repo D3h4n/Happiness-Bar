@@ -62,7 +62,7 @@ export default class Happy extends Component {
             <div className="happy-container">
                 <label className = "name">Name: { this.props.name }</label>
                 
-                <label>Emotion: { emotion } </label>
+                <label className="emotion">Emotion: { emotion } </label>
 
                 <span className = "seratonin-container">
                     <label>Seratonin: </label>

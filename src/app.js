@@ -7,7 +7,7 @@ export default class App extends Component {
         super()
         this.state = {
             nameEntry: '',
-            names: []
+            names: ["d3h4n", "burgers"]
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -49,17 +49,20 @@ export default class App extends Component {
 
         return (
             <div className="app-container">
-                <form onSubmit={this.handleSubmit}>
-                    <input type="text" 
-                        name="nameEntry" 
-                        placeholder="Enter Name" 
-                        value={this.state.nameEntry} 
-                        onChange={this.handleChange}
-                    />
+                <div className="form">
+                    <form onSubmit={this.handleSubmit}>
+                        <input type="text" 
+                            name="nameEntry" 
+                            placeholder="Enter Name" 
+                            value={this.state.nameEntry} 
+                            onChange={this.handleChange}
+                        />
 
-                    <button type="submit">Submit</button>
-                </form>
-            
+                        <button type="submit" className="sub-btn-big">Submit</button>
+                        <button type="submit" className="sub-btn-small">✔</button>
+                    </form>
+                </div>
+                <br />
                 { happies }
             </div>
         )
