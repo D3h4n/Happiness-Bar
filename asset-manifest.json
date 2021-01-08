@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Happiness-Bar/static/css/main.8a8040fc.chunk.css",
-    "main.js": "/Happiness-Bar/static/js/main.2e42b8ba.chunk.js",
-    "main.js.map": "/Happiness-Bar/static/js/main.2e42b8ba.chunk.js.map",
+    "main.js": "/Happiness-Bar/static/js/main.6de2d0e0.chunk.js",
+    "main.js.map": "/Happiness-Bar/static/js/main.6de2d0e0.chunk.js.map",
     "runtime-main.js": "/Happiness-Bar/static/js/runtime-main.a7d9c3f8.js",
     "runtime-main.js.map": "/Happiness-Bar/static/js/runtime-main.a7d9c3f8.js.map",
     "static/js/2.722b1440.chunk.js": "/Happiness-Bar/static/js/2.722b1440.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a7d9c3f8.js",
     "static/js/2.722b1440.chunk.js",
     "static/css/main.8a8040fc.chunk.css",
-    "static/js/main.2e42b8ba.chunk.js"
+    "static/js/main.6de2d0e0.chunk.js"
   ]
 }
